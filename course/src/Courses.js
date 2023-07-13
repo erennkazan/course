@@ -3,11 +3,11 @@ import Course from "./Course";
 function Courses({courses,removeCourse}) {
    
    return ( 
-   <div>
+   <div className="courseMainDiv">
      <div>
         <h2>Kurslarım</h2>            
      </div>
-        <div>
+        <div className="cardDiv">
          {
             courses.map((course)=>{
                return(
