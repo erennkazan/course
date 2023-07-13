@@ -16,3 +16,18 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+.cardPrice{
+    font-style: italic;
+    color: red;
+}
+.cardDeleteBtn{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+}
+.refreshDiv{
+    text-align: center;
+}
