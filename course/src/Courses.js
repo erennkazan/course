@@ -21,7 +21,7 @@ function Courses({courses,removeCourse}) {
       if(randomNumber === index){
          randomNumber = index + 1;
       }
-      setIndex(randomNumber);
+      setIndex(checkIndex(randomNumber));
    }
 
    const prevCourse = ()=>{
